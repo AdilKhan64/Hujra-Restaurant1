@@ -1,1 +1,2 @@
-# Hujra-Restaurant1
+# E-Restaurants-management-system
+# E-Restaurants-management-system
