@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="and conceptual appsA powerful  base dashboard template that especially build for developers and programmers.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="folder address?">
+    <!-- Page Title  -->
+    <title>Admin Dashboard</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
+
+    <style>
+        .dataTables_wrapper .dataTables_length select,
+        .dataTables_wrapper .dataTables_filter input {
+            font-size: 12px;
+            margin: 10px;
+            /* Reduce text size for filter and length options */
+        }
+    </style>
+</head>
+
+<body class="nk-body bg-lighter npc-default has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main  -->
+        <div class="nk-main ">
+            <!-- sidebar -->
+            <div class="nk-sidebar nk-sidebar-fixed is-light " data-content="sidebarMenu">
+                <div class="nk-sidebar-element nk-sidebar-head">
+                    <div class="nk-sidebar-brand">
+                        <a href="html/dashboard.html" class="logo-link nk-sidebar-logo">
+                            <img style="width: 80px !important;height: 250px !important;" class=" logo-img"
+                                src="./images/logo.jpg" srcset="./images/logo.jpg 2x" alt="logo-small">
+                        </a>
+                    </div>
+                    <div class="nk-menu-trigger mr-n2">
+                        <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em
+                                class="icon ni ni-arrow-left"></em></a>
+                        <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex"
+                            data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                    </div>
+                </div><!-- .nk-sidebar-element -->
+                <div class="nk-sidebar-element">
+                    <div class="nk-sidebar-content">
+                        <div class="nk-sidebar-menu" data-simplebar>
+                            <ul class="nk-menu">
+
+                                <li class="nk-menu-heading">
+                                    <h6 class="overline-title text-primary-alt">Dashboards</h6>
+                                </li>
+                                <!-- .nk-menu-item -->
+                                <li class="nk-menu-item">
+                                    <a href="html/dashboard.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-cart-fill"></em></span>
+                                        <span class="nk-menu-text">Dashboard</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-tabeles -->
+                                <li class="nk-menu-item">
+                                    <a href="html/mytables.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em
+                                                class="icon ni ni-activity-round-fill"></em></span>
+                                        <span class="nk-menu-text">Tables</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-item -->
+                                <li class="nk-menu-item">
+                                    <a href="html/menu.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-list"></em></span>
+                                        <span class="nk-menu-text">Menu Items</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-waiters -->
+                                <li class="nk-menu-item">
+                                    <a href="html/waiter.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-users"></em></span>
+                                        <span class="nk-menu-text">Waiters</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-duty-place -->
+                                <li class="nk-menu-item">
+                                    <a href="html/duty_place.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-map"></em></span>
+                                        <span class="nk-menu-text">Duty Places</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-kitchrn-staff -->
+                                <li class="nk-menu-item">
+                                    <a href="html/kitchen.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-users"></em></span>
+                                        <span class="nk-menu-text">Kitchen Staff</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-request-tabel-reservation -->
+                                <li class="nk-menu-item">
+                                    <a href="html/Request_tabel_adv.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-growth-fill"></em></span>
+                                        <span class="nk-menu-text">Requests for Table reservation</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-Salaries -->
+                                <li class="nk-menu-item">
+                                    <a href="html/add_salaries.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-money"></em></span>
+                                        <span class="nk-menu-text">Salaries</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-todays-orders -->
+                                <li class="nk-menu-item">
+                                    <a href="html/today_orders.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-money"></em></span>
+                                        <span class="nk-menu-text">Todays Orders</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+
+                            </ul><!-- .nk-menu -->
+                        </div><!-- .nk-sidebar-menu -->
+                    </div><!-- .nk-sidebar-content -->
+                </div><!-- .nk-sidebar-element -->
+            </div>
+            <!-- sidebar @e -->
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <!-- main header @s -->
+                <div class="nk-header nk-header-fixed is-light">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap">
+                            <div class="nk-menu-trigger d-xl-none ml-n1">
+                                <a href="#" class="nk-nav-toggle nk-quick-nav-icon" data-target="sidebarMenu"><em
+                                        class="icon ni ni-menu"></em></a>
+                            </div>
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle mr-n1" data-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                                <div class="user-info d-none d-xl-block">
+                                                    <div class="user-status user-status-unverified">Unverified</div>
+                                                    <div class="user-name dropdown-indicator">Hujra Restaurants</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>HR</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Hujra Restaurants</span>
+                                                        <span class="sub-text">HR12@gmail.com</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="html/user-profile-regular.html"><em
+                                                                class="icon ni ni-user-alt"></em><span>View
+                                                                Profile</span></a></li>
+                                                    <li><a href="html/user-profile-activity.html"><em
+                                                                class="icon ni ni-activity-alt"></em><span>Login
+                                                                Activity</span></a></li>
+                                                    <li><a class="dark-switch" href="#"><em
+                                                                class="icon ni ni-moon"></em><span>Dark Mode</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign
+                                                                out</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <!-- jQuery library -->
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+                                <!-- Latest compiled JavaScript -->
+                                <script
+                                    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+                                <div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-hidden="true" style="color: #000000">&times;</button>
+                                                <div align="center">
+                                                    <h4 class="modal-title" id="myModalLabel"></h4>
+                                                </div>
+                                            </div>
+                                            <div class="modal-body" style="font-size: 18px">
+                                                <p style="text-align: center; color: #000000">You are about to delete
+                                                    one
+                                                    record, this procedure is irreversible.</p>
+                                                <p style="text-align: center; color: #000000">Do you want to proceed?
+                                                </p>
+                                                <p class="debug-url" style="display: none"></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default"
+                                                    data-dismiss="modal">Cancel</button>
+                                                <a class="btn btn-danger btn-ok" style="color: white">Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <style>
+                                    #loading2 {
+                                        position: fixed;
+                                        z-index: 10000;
+
+                                    }
+
+                                    #loading_overlay {
+                                        position: fixed;
+                                        top: 0;
+                                        bottom: 0;
+                                        left: 0;
+                                        right: 0;
+                                        text-align: center;
+                                        font-size: 0;
+                                        overflow-y: auto;
+                                        background-color: rgba(0, 0, 0, .4);
+                                        z-index: 9999;
+
+
+                                        transition: opacity .3s;
+                                    }
+
+                                    #loader {
+                                        top: calc(50% - 53px);
+                                        left: calc(50% - 53px);
+                                        position: fixed;
+                                        z-index: 1040;
+                                        border-radius: 50%;
+
+                                    }
+                                </style>
+                                <div id="loading2" class="loader1" style="display: none">
+                                    <div id="loading_overlay"></div>
+                                    <div id="loader" style="background:#fff;padding:3px;">
+                                        <img src="{{ url('public/loader.gif') }}" style="width:80px;height: auto;">
+                                    </div>
+                                </div>
+
+
+
+
+                                <!-- Edit Modal -->
+                                <div class="modal fade" id="editReservationModal" tabindex="-1" role="dialog"
+                                    aria-labelledby="editReservationModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="editReservationModalLabel">Edit Reservation
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form id="editReservationForm">
+                                                    <input type="hidden" id="editReservationId">
+                                                    <div class="form-group">
+                                                        <label for="editName">Name</label>
+                                                        <input type="text" class="form-control" id="editName" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="editContactNumber">Contact Number</label>
+                                                        <input type="text" class="form-control" id="editContactNumber"
+                                                            required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="editEmail">Email</label>
+                                                        <input type="email" class="form-control" id="editEmail"
+                                                            required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="editFromTime">From Time</label>
+                                                        <input type="time" class="form-control" id="editFromTime"
+                                                            required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="editToTime">To Time</label>
+                                                        <input type="time" class="form-control" id="editToTime"
+                                                            required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="editGuestNumber">Guest Number</label>
+                                                        <input type="text" class="form-control" id="editGuestNumber"
+                                                            required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="editMessage">Message</label>
+                                                        <textarea class="form-control" id="editMessage"
+                                                            required></textarea>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Save changes</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <script src="https://cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>
+                                <div class="modal fade" tabindex="-1" id="modalTop2">
+                                    <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="edit_modal_header"></h5>
+                                                <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <em class="icon ni ni-cross"></em>
+                                                </a>
+                                            </div>
+                                            <div class="modal-body" id="edit_modal_body">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- The Table to display the values -->
+
+                                <div class="components-preview wide-md mx-auto">
+                                    <div class="nk-block nk-block-lg">
+                                        <div class="nk-block-head nk-block-head-sm">
+                                            <div class="nk-block-between">
+                                                <div class="nk-block-head-content">
+                                                    <h4 class="nk-block-title page-title">Request For Table Reservation
+                                                    </h4>
+                                                    <div class="nk-block-des text-soft"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card card-preview">
+                                            <div class="card-inner">
+                                                <table id="reservation-table" class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Sr#</th>
+                                                            <th>Name</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="reservation-tbody">
+                                                        <!-- Reservations will be dynamically inserted here -->
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                    </div><!-- nk-block -->
+                                </div><!-- .components-preview -->
+
+                                <script type="text/javascript">
+                                    CKEDITOR.replace('editor1', {
+                                        filebrowserUploadUrl: "{{route('ckeditor.upload', ['_token' => csrf_token() ])}}",
+                                        filebrowserUploadMethod: 'form'
+                                    });
+
+                                </script>
+
+                                <script>
+                                    function view_edit_modal(id) {
+                                        $('#loading2').show();
+                                        $("#edit_modal_header").html("Edit Expert Detail");
+                                        $.get("{{ url('edit_expert') }}" + '/' + id, function (data, status) {
+                                            $("#edit_modal_body").html(data.html);
+                                            $('#loading2').hide();
+                                        });
+                                        $('#modalTop2').modal('show');
+                                    }
+                                </script>
+
+                                <script>
+                                    $(document).ready(function () {
+                                        $('body').on('click', '.khan', function () {
+                                            $('.btn-ok').attr('href', $(this).data('href'));
+                                        });
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+                            <div class="nk-footer-copyright"> &copy; 2024 Hujra Restaurants<a href="#"
+                                    target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+    </div>
+    <!-- app-root @e -->
+    <!-- JavaScript -->
+
+
+    <script src="./assets/js/bundle.js?ver=2.5.0"></script>
+    <script src="./assets/js/scripts.js?ver=2.5.0"></script>
+    <script src="./assets/js/charts/chart-ecommerce.js?ver=2.5.0"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+
+    <!-- Script to read data from Firebase, handle actions, and initialize DataTables -->
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDlqNMzVsqHNTVzLAYSrsn4SjuUhZyOELc",
+            authDomain: "e-restaurant-23034.firebaseapp.com",
+            projectId: "e-restaurant-23034",
+            storageBucket: "e-restaurant-23034.appspot.com",
+            messagingSenderId: "411328100739",
+            appId: "1:411328100739:web:ba4eb93d5f6828017f5eb6",
+            measurementId: "G-WSW44TGVTM",
+            databaseURL: "https://e-restaurant.firebaseio.com",
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
+
+        // Function to read reservations from Firebase and populate the table
+        function loadReservations() {
+            db.collection("reservations").get().then((querySnapshot) => {
+                const tbody = document.getElementById('reservation-tbody');
+                tbody.innerHTML = ''; // Clear existing rows
+                let srNo = 1;
+                querySnapshot.forEach((doc) => {
+                    const data = doc.data();
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${srNo++}</td>
+                        <td>${data.name || ''}</td>
+                        <td>
+                            <a class="btn btn-info btn-sm" onclick="viewReservation('${doc.id}')">
+                            <em style="color: white" class="icon ni ni-eye"></em>
+                            </a>
+                            <a class="btn btn-primary btn-sm" onclick="editReservation('${doc.id}')">
+                            <em style="color: white" class="icon ni ni-pen"></em>
+                            </a>
+                            <a class="btn btn-danger btn-sm" onclick="deleteReservation('${doc.id}')">
+                            <em style="color: white" class="icon ni ni-trash"></em>
+                            </a>
+                        </td>
+                        `;
+                    tbody.appendChild(tr);
+                });
+
+                // Initialize DataTable after populating the table
+                $('#reservation-table').DataTable({
+                    pageLength: 10,
+                    lengthMenu: [10, 50, 100],
+                });
+            }).catch((error) => {
+                console.error("Error getting documents: ", error);
+            });
+        }
+
+        // Function to delete a reservation
+        function deleteReservation(id) {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: 'You won\'t be able to revert this!',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    db.collection("reservations").doc(id).delete().then(() => {
+                        Swal.fire(
+                            'Deleted!',
+                            'Reservation has been deleted.',
+                            'success'
+                        );
+                        loadReservations(); // Reload reservations after deletion
+                    }).catch((error) => {
+                        Swal.fire(
+                            'Error!',
+                            'Error removing document: ' + error,
+                            'error'
+                        );
+                    });
+                }
+            });
+        }
+
+        // Function to edit a reservation
+        function editReservation(id) {
+            const docRef = db.collection("reservations").doc(id);
+            docRef.get().then((doc) => {
+                if (doc.exists) {
+                    const data = doc.data();
+                    document.getElementById('editReservationId').value = id;
+                    document.getElementById('editName').value = data.name || '';
+                    document.getElementById('editContactNumber').value = data.contactNumber || '';
+                    document.getElementById('editEmail').value = data.email || '';
+                    document.getElementById('editFromTime').value = data.fromTime || '';
+                    document.getElementById('editToTime').value = data.toTime || '';
+                    document.getElementById('editGuestNumber').value = data.guestNumber || '';
+                    document.getElementById('editMessage').value = data.message || '';
+                    $('#editReservationModal').modal('show');
+                } else {
+                    Swal.fire('Error!', 'No such document!', 'error');
+                }
+            }).catch((error) => {
+                Swal.fire('Error!', 'Error getting document: ' + error, 'error');
+            });
+        }
+
+        // Function to view a reservation
+        function viewReservation(id) {
+            const docRef = db.collection("reservations").doc(id);
+            docRef.get().then((doc) => {
+                if (doc.exists) {
+                    const data = doc.data();
+                    Swal.fire({
+                        title: '<strong>Reservation Details</strong>',
+                        icon: 'info',
+                        html:
+                            `<b>Name:</b> ${data.name || ''}<br>` +
+                            `<b>Contact Number:</b> ${data.contactNumber || ''}<br>` +
+                            `<b>Email:</b> ${data.email || ''}<br>` +
+                            `<b>From Time:</b> ${data.fromTime || ''}<br>` +
+                            `<b>To Time:</b> ${data.toTime || ''}<br>` +
+                            `<b>Guest Number:</b> ${data.guestNumber || ''}<br>` +
+                            `<b>Message:</b> ${data.message || ''}<br>`,
+                        showCloseButton: true,
+                    });
+                } else {
+                    Swal.fire('Error!', 'No such document!', 'error');
+                }
+            }).catch((error) => {
+                Swal.fire('Error!', 'Error getting document: ' + error, 'error');
+            });
+        }
+
+        // Event listener for form submission to update reservation
+        document.getElementById('editReservationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const id = document.getElementById('editReservationId').value;
+            const updatedData = {
+                name: document.getElementById('editName').value,
+                contactNumber: document.getElementById('editContactNumber').value,
+                email: document.getElementById('editEmail').value,
+                fromTime: document.getElementById('editFromTime').value,
+                toTime: document.getElementById('editToTime').value,
+                guestNumber: document.getElementById('editGuestNumber').value,
+                message: document.getElementById('editMessage').value,
+            };
+            db.collection("reservations").doc(id).update(updatedData).then(() => {
+                Swal.fire('Success!', 'Reservation updated successfully!', 'success');
+                $('#editReservationModal').modal('hide');
+                loadReservations(); // Reload reservations after update
+            }).catch((error) => {
+                Swal.fire('Error!', 'Error updating document: ' + error, 'error');
+            });
+        });
+
+        // Load reservations on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            loadReservations();
+        });
+
+
+    </script>
+</body>
+
+</html>
