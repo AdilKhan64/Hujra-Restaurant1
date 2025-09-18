@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="author" content="Hujra">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="./img">
+    <!-- Page Title  -->.>
+    <title>Admin Dashboard</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
+
+</head>
+
+<body class="nk-body bg-lighter npc-default has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main -->
+        <div class="nk-main ">
+            <!-- sidebar -->
+            <div class="nk-sidebar nk-sidebar-fixed is-light " data-content="sidebarMenu">
+                <div class="nk-sidebar-element nk-sidebar-head">
+                    <div class="nk-sidebar-brand">
+                        <a href="html/dashboard.html" class="logo-link nk-sidebar-logo">
+                            <img style="width: 80px !important;height: 250px !important;" class=" logo-img"
+                                src="./images/logo.jpg" srcset="./images/logo.jpg 2x" alt="logo-small">
+                        </a>
+                    </div>
+                    <div class="nk-menu-trigger mr-n2">
+                        <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em
+                                class="icon ni ni-arrow-left"></em></a>
+                        <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex"
+                            data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                    </div>
+                </div><!-- .nk-sidebar-element -->
+                <div class="nk-sidebar-element">
+                    <div class="nk-sidebar-content">
+                        <div class="nk-sidebar-menu" data-simplebar>
+                            <ul class="nk-menu">
+                                <li class="nk-menu-heading">
+                                    <h6 class="overline-title text-primary-alt">Dashboards</h6>
+                                </li>
+                                <!-- .nk-menu-item -->
+                                <li class="nk-menu-item">
+                                    <a href="html/dashboard.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-cart-fill"></em></span>
+                                        <span class="nk-menu-text">Dashboard</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-tabels -->
+                                <li class="nk-menu-item">
+                                    <a href="html/mytables.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em
+                                                class="icon ni ni-activity-round-fill"></em></span>
+                                        <span class="nk-menu-text">Tables</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+
+                                <li class="nk-menu-item">
+                                    <a href="html/menu.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-list"></em></span>
+                                        <span class="nk-menu-text">Menu Items</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-waiter -->
+                                <li class="nk-menu-item">
+                                    <a href="html/waiter.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-users"></em></span>
+                                        <span class="nk-menu-text">Waiters</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-duty-place -->
+                                <li class="nk-menu-item">
+                                    <a href="html/duty_place.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-map"></em></span>
+                                        <span class="nk-menu-text">Duty Places</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-kithen-Staff -->
+                                <li class="nk-menu-item">
+                                    <a href="html/kitchen.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-users"></em></span>
+                                        <span class="nk-menu-text">Kitchen Staff</span>
+                                    </a>
+                                </li>
+                                <!-- .Requests for Table reservation -->
+
+                                <li class="nk-menu-item">
+                                    <a href="html/Request_tabel_adv.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-growth-fill"></em></span>
+                                        <span class="nk-menu-text">Requests for Table reservation</span>
+                                    </a>
+                                </li>
+                                <!-- .add salaries -->
+                                <li class="nk-menu-item">
+                                    <a href="html/add_salaries.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-money"></em></span>
+                                        <span class="nk-menu-text">Salaries</span>
+                                    </a>
+                                </li>
+                                <!-- .nk-menu-item -->
+                                <li class="nk-menu-item">
+                                    <a href="html/today_orders.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em
+                                                class="icon ni ni-activity-round-fill"></em></span>
+                                        <span class="nk-menu-text">Todays Orders</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+
+                            </ul><!-- .nk-menu -->
+                        </div><!-- .nk-sidebar-menu -->
+                    </div><!-- .nk-sidebar-content -->
+                </div><!-- .nk-sidebar-element -->
+            </div>
+            <!-- sidebar  -->
+            <!-- wrap  -->
+            <div class="nk-wrap ">
+                <!-- main header  -->
+                <div class="nk-header nk-header-fixed is-light">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap">
+                            <div class="nk-menu-trigger d-xl-none ml-n1">
+                                <a href="#" class="nk-nav-toggle nk-quick-nav-icon" data-target="sidebarMenu"><em
+                                        class="icon ni ni-menu"></em></a>
+                            </div>
+                            <div class="nk-header-brand d-xl-none">
+                                <a href="html/dashboard.html" class="logo-link">
+                                    <img class="logo-light logo-img" src="./images/logo.png" srcset="assets.png 2x"
+                                        alt="logo">
+                                </a>
+                            </div><!-- .nk-header-brand -->
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle mr-n1" data-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                                <div class="user-info d-none d-xl-block">
+                                                    <div class="user-status user-status-unverified">Unverified</div>
+                                                    <div class="user-name dropdown-indicator">Hujra Restaurants</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>HR</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Hujra Restaurants</span>
+                                                        <span class="sub-text">HR12@gmail.com</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+
+                                                    <li><a class="dark-switch" href="#"><em
+                                                                class="icon ni ni-moon"></em><span>Dark Mode</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a onclick="LogOut()" style="cursor: pointer !important;"><em
+                                                                class="icon ni ni-signout cursor-pointer "></em><span
+                                                                class="cursor-pointer">Sign
+                                                                out</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div><!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <div class="nk-block-head nk-block-head-sm">
+                                    <div class="nk-block-between">
+                                        <div class="nk-block-head-content">
+                                            <h3 class="nk-block-title page-title">Dashboard</h3>
+                                        </div>
+                                    </div><!-- .nk-block-between -->
+                                </div><!-- .nk-block-head -->
+                                <div class="nk-block">
+                                    <div class="row g-gs">
+                                        <div class="col-xxl-3 col-sm-6">
+                                            <div class="card">
+                                                <div class="nk-ecwg nk-ecwg6">
+                                                    <div class="card-inner">
+                                                        <div class="card-title-group">
+                                                            <div class="card-title">
+                                                                <h6 class="title">Today Active Orders</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data">
+                                                            <div class="data-group">
+                                                                <div class="amount" id="active-orders">0</div>
+                                                                <div class="nk-ecwg6-ck">
+                                                                    <canvas class="ecommerce-line-chart-s3"
+                                                                        id="todayOrders"></canvas>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info" id="active-order-per">
+                                                                <span>vs. Previous Orders</span>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- .card-inner -->
+                                                </div><!-- .nk-ecwg -->
+                                            </div><!-- .card -->
+                                        </div><!-- .col -->
+                                        <div class="col-xxl-3 col-sm-6">
+                                            <div class="card">
+                                                <div class="nk-ecwg nk-ecwg6">
+                                                    <div class="card-inner">
+                                                        <div class="card-title-group">
+                                                            <div class="card-title">
+                                                                <h6 class="title">Today Sell</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data">
+                                                            <div class="data-group">
+                                                                <div class="amount" id="today-sales">0</div>
+                                                                <div class="nk-ecwg6-ck">
+                                                                    <canvas class="ecommerce-line-chart-s3"
+                                                                        id="todayRevenue"></canvas>
+                                                                </div>
+                                                            </div>
+                                                            <div class="info" id="today-sale-per">
+                                                                <span>vs. Previous Sales</span>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- .card-inner -->
+                                                </div><!-- .nk-ecwg -->
+                                            </div><!-- .card -->
+                                        </div><!-- .col -->
+                                        <div class="col-xxl-3 col-sm-6">
+                                            <div class="card">
+                                                <div class="nk-ecwg nk-ecwg6">
+                                                    <div class="card-inner">
+                                                        <div class="card-title-group">
+                                                            <div class="card-title">
+                                                                <h6 class="title">Tolal Kitchen Staff</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data">
+                                                            <div class="data-group">
+                                                                <div class="amount" id="total-kitchen-staff">0</div>
+                                                                <div class="nk-ecwg6-ck">
+                                                                    <canvas class="ecommerce-line-chart-s3"
+                                                                        id="todayCustomers"></canvas>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div><!-- .card-inner -->
+                                                </div><!-- .nk-ecwg -->
+                                            </div><!-- .card -->
+                                        </div><!-- .col -->
+                                        <div class="col-xxl-3 col-sm-6">
+                                            <div class="card">
+                                                <div class="nk-ecwg nk-ecwg6">
+                                                    <div class="card-inner">
+                                                        <div class="card-title-group">
+                                                            <div class="card-title">
+                                                                <h6 class="title">Tolal Waiters</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data">
+                                                            <div class="data-group">
+                                                                <div class="amount" id="total-waiter">0</div>
+                                                                <div class="nk-ecwg6-ck">
+                                                                    <canvas class="ecommerce-line-chart-s3"
+                                                                        id="todayVisitors"></canvas>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- .card-inner -->
+                                                </div><!-- .nk-ecwg6 -->
+                                            </div><!-- .card -->
+                                        </div><!-- .col -->
+                                    </div><!-- .card -->
+                                </div>
+                            </div><!-- .card -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .nk-block -->
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+                            <div class="nk-footer-copyright"> &copy; 2024 Hujra Restaurants<a href="#"
+                                    target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @e -->
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="./assets/js/bundle.js?ver=2.5.0"></script>
+    <script src="./assets/js/scripts.js?ver=2.5.0"></script>
+    <script src="./assets/js/charts/chart-ecommerce.js?ver=2.5.0"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+    <script>
+        function LogOut() {
+            var userSession = sessionStorage.getItem('user')
+            if (userSession) {
+                sessionStorage.removeItem('user');
+            }
+            window.location.href = "./HTML/log-in.html";
+        }
+    </script>
+
+    <script>
+        console.log("connected")
+        // console.log(sessionStorage.getItem("user"))
+        const firebaseConfig = {
+            apiKey: "AIzaSyDlqNMzVsqHNTVzLAYSrsn4SjuUhZyOELc",
+            authDomain: "e-restaurant-23034.firebaseapp.com",
+            projectId: "e-restaurant-23034",
+            storageBucket: "e-restaurant-23034.appspot.com",
+            messagingSenderId: "411328100739",
+            appId: "1:411328100739:web:ba4eb93d5f6828017f5eb6",
+            measurementId: "G-WSW44TGVTM",
+            databaseURL: "https://e-restaurant.firebaseio.com",
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
+
+        db.collection('orders')
+            .where('status', '==', true)
+            .get()
+            .then((querySnapshot) => {
+                const activeOrders = document.getElementById("active-orders");
+                const activeOrderPer = document.getElementById("active-order-per");
+                const today = new Date().toISOString().split('T')[0]; // Get today's date in 'YYYY-MM-DD' format
+
+                let todayCount = 0;
+                let previousDaysTotalCount = 0;
+                let previousDaysCount = 0;
+
+                querySnapshot.docs.forEach(doc => {
+                    const { orderDate } = doc.data();
+
+                    console.log(orderDate, today);
+
+                    if (orderDate === today) {
+                        todayCount++;
+                    } else {
+                        previousDaysTotalCount++;
+                        if (doc.data().status === true) {
+                            previousDaysCount++;
+                        }
+                    }
+                });
+
+                const previousDaysAvg = previousDaysCount ? previousDaysTotalCount / previousDaysCount : 0;
+                const percentageChange = previousDaysAvg ? ((todayCount - previousDaysAvg) / previousDaysAvg) * 100 : 0;
+                const formattedChange = percentageChange.toFixed(2);
+                const changeDirection = percentageChange >= 0 ? 'up' : 'down';
+                const changeColor = percentageChange >= 0 ? 'text-success' : 'text-danger';
+                const changeArrow = percentageChange >= 0 ? 'ni-arrow-long-up' : 'ni-arrow-long-down';
+
+                activeOrders.innerHTML = todayCount;
+                activeOrderPer.innerHTML = `
+            <span class="change ${changeDirection} ${changeColor}">
+                <em class="icon ni ${changeArrow}"></em> ${formattedChange}%
+            </span><span> vs. Previous Orders</span>`;
+            })
+            .catch((error) => {
+                console.error("Error getting documents: ", error);
+            });
+
+
+
+
+        db.collection('orders')
+            .get()
+            .then((querySnapshot) => {
+                const activeOrders = document.getElementById("today-sales");
+                const todaySalePer = document.getElementById("today-sale-per");
+                const today = new Date().toISOString().split('T')[0];
+
+                let todayTotal = 0;
+                let previousDaysTotal = 0;
+                let previousDaysCount = 0;
+
+                querySnapshot.docs.forEach(doc => {
+                    const { items = [], orderDate } = doc.data();
+                    const dayTotal = items.reduce((sum, item) => sum + parseFloat(item.totalPrice || 0), 0);
+
+                    if (orderDate === today) {
+                        todayTotal += dayTotal;
+                    } else {
+                        previousDaysTotal += dayTotal;
+                        previousDaysCount++;
+                    }
+                });
+
+                const previousDaysAvg = previousDaysCount ? previousDaysTotal / previousDaysCount : 0;
+                const percentageChange = previousDaysAvg ? ((todayTotal - previousDaysAvg) / previousDaysAvg) * 100 : 0;
+                const formattedChange = percentageChange.toFixed(2);
+                const changeDirection = percentageChange >= 0 ? 'up' : 'down';
+                const changeColor = percentageChange >= 0 ? 'text-success' : 'text-danger';
+                const changeArrow = percentageChange >= 0 ? 'ni-arrow-long-up' : 'ni-arrow-long-down';
+
+                activeOrders.innerHTML = todayTotal.toFixed(2);
+
+                todaySalePer.innerHTML = `
+                    <span class="change ${changeDirection} ${changeColor}">
+                        <em class="icon ni ${changeArrow}"></em> ${formattedChange}%
+                    </span><span> vs. Previous salse</span>`;
+            })
+            .catch((error) => {
+                console.error("Error getting documents: ", error);
+            });
+
+        db.collection('kitchenStaff')
+            .get()
+            .then((querySnapshot) => {
+                const activeOrders = document.getElementById("total-kitchen-staff");
+                activeOrders.innerHTML = '';
+                activeOrders.innerHTML = querySnapshot.size;
+            })
+            .catch((error) => {
+                console.error("Error getting documents: ", error);
+            });
+
+        db.collection('waiters')
+            .get()
+            .then((querySnapshot) => {
+                const activeOrders = document.getElementById("total-waiter");
+                activeOrders.innerHTML = '';
+                activeOrders.innerHTML = querySnapshot.size;
+            })
+            .catch((error) => {
+                console.error("Error getting documents: ", error);
+            });
+
+
+    </script>
+
+</body>
+
+</html>
